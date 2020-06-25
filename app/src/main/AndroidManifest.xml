@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sample6RecyclerView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample4fragmenttwo" />
+        <activity android:name=".sample5_viewPager">
+
+        </activity>
+        <activity android:name=".sample4fragment" />
+        <activity android:name=".sample4" />
+        <activity android:name=".sample3" />
+        <activity android:name=".sample2" />
+        <activity android:name=".sample1" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
