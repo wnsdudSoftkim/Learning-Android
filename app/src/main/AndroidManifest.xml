@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".sample10"></activity>
         <activity android:name=".sample6RecyclerView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".sample4fragmenttwo" />
-        <activity android:name=".sample5_viewPager">
-
-        </activity>
+        <activity android:name=".sample5_viewPager"></activity>
         <activity android:name=".sample4fragment" />
         <activity android:name=".sample4" />
         <activity android:name=".sample3" />

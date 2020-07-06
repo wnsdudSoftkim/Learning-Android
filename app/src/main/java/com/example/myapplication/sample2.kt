@@ -17,6 +17,8 @@ class sample2 : AppCompatActivity() {
 //        val btnlogin :Button = findViewById(R.id.btn_login)
 ////        btnlogin.setOnClickListener {
 ////            startActivity(Intent(this,sample3::class.java))
+                //val intent = Intent(this,sample::class.java))
+        //              startActivity(intent)
 ////        }
         //두번째방법
         btn_login.setOnClickListener {
@@ -30,10 +32,10 @@ class sample2 : AppCompatActivity() {
         intent.putExtra("sample2","뭘봐")
         startActivity(intent)
     }
+
     //startactivityResult
     fun sample2_1() {
         val intent = Intent(this,sample3::class.java)
-        intent.putExtra("sample2_1","샘플2_1")
         startActivityForResult(intent,200)
     }
     //결과값 받는 부분.
