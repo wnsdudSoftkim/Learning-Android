@@ -1,5 +1,7 @@
 package com.example.myapplication
 
+import android.content.Intent
+import android.content.Intent.getIntent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -17,8 +19,8 @@ class sample4fragmenttwo : Fragment() {
         return inflater.inflate(R.layout.activity_sample4fragmenttwo,container,false)
 
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
     }
 }

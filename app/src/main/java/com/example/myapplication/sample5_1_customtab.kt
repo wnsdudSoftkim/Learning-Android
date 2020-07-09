@@ -14,6 +14,7 @@ class sample5_1_customtab : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample5_1_customtab)
         initView()
+        val a = intent.getIntExtra("jun",-10)
 
     }
     //여기서 반환값을 View를 명시해줌.

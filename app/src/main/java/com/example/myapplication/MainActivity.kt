@@ -18,6 +18,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+
+        val intents = Intent(this,sample5_1_customtab::class.java)
+        intents.putExtra("jun",10)
+        startActivity(intents)
+
     }
 
 }
