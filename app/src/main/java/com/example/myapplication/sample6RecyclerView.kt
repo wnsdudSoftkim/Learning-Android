@@ -18,6 +18,9 @@ class sample6RecyclerView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample6_recycler_view)
+        //여기서 viewModel 의 mydata를 가져온 이유는 이 데이터를
+        // 가져와야지만 RecyclerView 안에 데이터가 들어가니까 맨 위에 선언해줌.
+
         viewModel.mydata()
         //1부터 10까지 들어있는 데이터 를 만들어줌.
 //        for (i in 0 until 10) {
@@ -30,6 +33,25 @@ class sample6RecyclerView : AppCompatActivity() {
         viewModel.Livedata.observe(this, Observer {
             //여기에 수시로 업데이트 할 데이터 넣어줌
         })
+    }
+}
+class RecycleAdapter(
+
+):RecyclerView.Adapter<RecycleAdapter.ViewHolder>(){
+    inner class ViewHolder(view:View) :RecyclerView.ViewHolder(view){
+
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecycleAdapter.ViewHolder {
+        TODO("Not yet implemented")
+    }
+
+    override fun getItemCount(): Int {
+        TODO("Not yet implemented")
+    }
+
+    override fun onBindViewHolder(holder: RecycleAdapter.ViewHolder, position: Int) {
+        TODO("Not yet implemented")
     }
 }
 

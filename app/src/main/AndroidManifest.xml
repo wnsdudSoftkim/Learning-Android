@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sample5_1_customtab"></activity>
+        <activity android:name=".SampleFireBase1"></activity>
+        <activity android:name=".sample5_1_customtab" />
         <activity android:name=".sample10" />
-        <activity android:name=".sample6RecyclerView"></activity>
+        <activity android:name=".sample6RecyclerView" />
         <activity android:name=".sample4fragmenttwo" />
-        <activity android:name=".sample5_viewPager"></activity>
+        <activity android:name=".sample5_viewPager" />
         <activity android:name=".sample4fragment" />
         <activity android:name=".sample4" />
         <activity android:name=".sample3" />

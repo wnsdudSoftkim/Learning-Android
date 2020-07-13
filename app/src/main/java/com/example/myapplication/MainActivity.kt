@@ -14,14 +14,14 @@ class MainActivity : AppCompatActivity() {
         //  val btnlogin : Button = findViewById(R.id.btn_login)
         btn_login.setOnClickListener {
             btn_login.setText("준영")
-           val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 
         }
 
 
-        val intents = Intent(this,sample5_1_customtab::class.java)
-        intents.putExtra("jun",10)
+        val intents = Intent(this, sample5_1_customtab::class.java)
+        intents.putExtra("jun", 10)
         startActivity(intents)
 
     }
