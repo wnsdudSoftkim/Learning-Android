@@ -1,2 +1,2 @@
-# Android-App-Project-Setting
-테스트 프로젝트
+# Learning Android
+안드로이드 공부 
